@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+  .searchInput {
+    width: calc(100% - 48px);
+  }
+  .searchButton {
+     width: 48px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .searchInput {
+    width: calc(49% - 48px);
+  }
+}
